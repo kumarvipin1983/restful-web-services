@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.service;
+package com.in28min.restfulwebservices.service;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.in28minutes.rest.webservices.restfulwebservices.model.User;
+import com.in28min.restfulwebservices.model.User;
 
 @Component
 public class UserDaoService {

@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.exception;
+package com.in28min.restfulwebservices.exception;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.controller;
+package com.in28min.restfulwebservices.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.in28minutes.rest.webservices.restfulwebservices.exception.UserNotFoundException;
-import com.in28minutes.rest.webservices.restfulwebservices.model.User;
-import com.in28minutes.rest.webservices.restfulwebservices.service.UserDaoService;
+import com.in28min.restfulwebservices.exception.UserNotFoundException;
+import com.in28min.restfulwebservices.model.User;
+import com.in28min.restfulwebservices.service.UserDaoService;
 
 @RestController
 public class UserController {
